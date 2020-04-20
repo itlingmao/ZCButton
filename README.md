@@ -1,7 +1,9 @@
 # ZCButton
 链式 button
-导入 ZCButton.h
- ZCButton *button = [[ZCButton alloc] init];    
+引进ZCButon.h
+使用方法如下
+           
+       ZCButton *button = [[ZCButton alloc] init];
            
        button.zc_rectMake(CGRectMake(120, 100, 100, 60))
        .zc_titleLabel(@"ok键", UIControlStateNormal)
