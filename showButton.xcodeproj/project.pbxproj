@@ -16,6 +16,7 @@
 		D46720F7244D881800550BF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46720F5244D881800550BF0 /* LaunchScreen.storyboard */; };
 		D46720FA244D881800550BF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D46720F9244D881800550BF0 /* main.m */; };
 		D4672104244D881900550BF0 /* showButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4672103244D881900550BF0 /* showButtonUITests.m */; };
+		D4672110244D883100550BF0 /* ZCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D467210E244D883100550BF0 /* ZCButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		D46720FF244D881900550BF0 /* showButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = showButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4672103244D881900550BF0 /* showButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = showButtonUITests.m; sourceTree = "<group>"; };
 		D4672105244D881900550BF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D467210E244D883100550BF0 /* ZCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCButton.m; sourceTree = "<group>"; };
+		D467210F244D883100550BF0 /* ZCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCButton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 		D46720E3244D881700550BF0 /* showButton */ = {
 			isa = PBXGroup;
 			children = (
+				D467210F244D883100550BF0 /* ZCButton.h */,
+				D467210E244D883100550BF0 /* ZCButton.m */,
 				D46720E4244D881700550BF0 /* AppDelegate.h */,
 				D46720E5244D881700550BF0 /* AppDelegate.m */,
 				D46720E7244D881700550BF0 /* SceneDelegate.h */,
@@ -211,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4672110244D883100550BF0 /* ZCButton.m in Sources */,
 				D46720FA244D881800550BF0 /* main.m in Sources */,
 				D46720F2244D881700550BF0 /* showButton.xcdatamodeld in Sources */,
 				D46720EC244D881700550BF0 /* ViewController.m in Sources */,
